@@ -41,3 +41,18 @@ class DramaEightBall:
             which_drama =  drama_type[random.randint(1, len(drama_type))]
             tkinter.messagebox.showinfo("The drama is",  which_drama)
      
+           
+      
+
+
+      
+
+#==========================================================================
+# THIS IS THE MAIN FUNCTION. THIS IS THE MAIN FUNCTION. THIS IS THE MAIN FUNCTION
+#==========================================================================
+def main ():
+      newDrama = DramaEightBall()
+
+if __name__ == "__main__":
+      main()
+      
