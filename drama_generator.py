@@ -37,8 +37,8 @@ class DramaEightBall:
             drama_type = ("Flame War", "Swatting", "SJW Callout", "SQW Callout", "Right-wing Stupidity", "Left-wing Stupidity", "TERFery", "Religious Garbage",
                               "Anti-Vaxxery", "Trolling", "Threats of Violence", "Alt-Right Idiocy", "Guillotine Meme", "Steve McRae Booming", "Rape Apologetics Charge",
                                 "Racism Accusation", "Misogyny Accuasation", "Accused of Misandry", "Conspiracy Theory")
-            
-            which_drama =  drama_type[random.randint(1, len(drama_type))]
+            dramaNum = random.randint(0, len(drama_type)-1)
+            which_drama =  drama_type[dramaNum]
             tkinter.messagebox.showinfo("The drama is",  which_drama)
      
            
